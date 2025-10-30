@@ -38,3 +38,38 @@
 |'sort'            |Sort file lines              |'sort file.txt'                 |
 |'uniq'            |Removes duplicates           |'uniq file.txt'                 |
 |'diff'            |Show difference between files|'diff file.txt'                 |
+
+## 4) User & Permissions
+
+| Command | Description | Example |
+|----------|--------------|----------|
+| whoami | Show current user | whoami |
+| id | Show user and group IDs | id |
+| chmod | Change file permissions | chmod 755 script.sh |
+| chown | Change file owner and group | chown root:root file.txt |
+| adduser | Add a new user | sudo adduser alice |
+| passwd | Change user password | passwd alice |
+| su | Switch user | su - |
+| sudo | Run command as superuser | sudo apt update |
+
+## 5) Networking
+
+| Command | Description | Example |
+|----------|--------------|----------|
+| ping | Test network connectivity | ping google.com |
+| ifconfig / ip a | View network interfaces and IP addresses | ip a |
+| netstat -tuln | View open ports  | netstat -tuln |
+| curl | Fetch data from a URL | curl http://example.com |
+| wget | Download files from the internet | wget http://file.com/file.txt |
+
+## 6) File Compression & Archiving
+
+| Command | Description | Example |
+|----------|--------------|----------|
+| tar -cf | Archive multiple files into a .tar file | tar -cf archive.tar file1 file2 |
+| tar -xvf | Extract files from a .tar archive | tar -xvf archive.tar |
+| tar -czvf | Create a compressed .tar.gz archive | tar -czvf archive.tar.gz dir/ |
+| gzip | Compress a file (creates .gz) | gzip file.txt |
+| gunzip | Decompress a .gz file | gunzip file.txt.gz |
+| zip | Compress files into a .zip archive | zip archive.zip file1 file2 |
+| unzip | Extract files from a .zip archive | unzip archive.zip |
